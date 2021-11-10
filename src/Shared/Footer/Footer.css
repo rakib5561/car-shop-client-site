@@ -52,6 +52,11 @@
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 5px;
+  transition: 0.2s all ease-in-out;
+}
+
+.subsribe-btn-style:hover {
+  background-color: #293957;
 }
 
 hr {
@@ -68,7 +73,7 @@ hr {
 }
 
 .copy-right span {
-  color: #d22e2e;
+  color: #006ba1;
 }
 
 @media only screen and (max-width: 600px) {

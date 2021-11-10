@@ -48,7 +48,7 @@ const Footer = () => {
                  <input type="email" placeholder="Your Email "/>
                  <button className="subsribe-btn-style">Subscribe</button>
                  </div>
-                 <p>Don't worry! We don't spam</p>
+                 <p>Don't worry! We don't spam.</p>
 
             </div>
 
