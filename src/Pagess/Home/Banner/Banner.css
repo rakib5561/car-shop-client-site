@@ -1,0 +1,52 @@
+.banner-part {
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../../../img/slide-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-container {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 10px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.banner-container h1 {
+  margin-bottom: 25px;
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 75px;
+}
+
+.banner-container p {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.btn-style {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px 10px;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  background-color: #d22e2e;
+  border: 2px solid #d22e2e;
+  border-radius: 5px;
+  border: none;
+  transition: 0.2s all ease-in-out;
+}
+
+.btn-style:hover {
+  background-color: transparent;
+  border: 2px solid #d22e2e;
+}
