@@ -1,17 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
 import './Registration.css';
 
 const Registration = () => {
+
+    const {RegisterNewUser, handleEmail, handlePassword, handleName} =  useAuth();
+
     return (
+
         <div className="registration-wrapper">
             
             <div className="registration-container">
                 <h2>Please,Register</h2>
-                <form action="" className="register-form">
-                        <input type="text" name="" id="" placeholder="your name" />
-                        <input type="email" name="" id="" placeholder="your email" />
-                        <input type="password" name="" id="" placeholder="your password" />
+                <form onSubmit={RegisterNewUser} className="register-form">
+                        <input onBlur={handleName} type="text" placeholder="your name" />
+                        <input onBlur={handleEmail} type="email"  placeholder="your email" />
+                        <input onBlur={handlePassword} type="password" placeholder="your password" />
                         <p className="go-login">Already have an account? <Link to='/login'>login</Link></p>
                         <input type="submit" value="Register" />
                 </form>

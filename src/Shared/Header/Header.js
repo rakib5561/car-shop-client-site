@@ -23,7 +23,7 @@ const Header = () => {
                     
                     <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 
-                    {user.email && <Nav.Link as={Link} to="/basboard">Dasboard</Nav.Link>}
+                    {user.email && <Nav.Link as={Link} to="/dasboard">Dasboard</Nav.Link>}
 
                      {
                         !user.email && <Nav.Link as={Link} to="/login">Login</Nav.Link>
@@ -33,7 +33,7 @@ const Header = () => {
                      }
                 
                     <Navbar.Text>
-                        <img className="userImg" src={user.photoURL} alt="" />
+                        <a href="#">{user.displayName}</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
