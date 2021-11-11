@@ -45,8 +45,3 @@
   border: none;
   transition: 0.2s all ease-in-out;
 }
-
-.btn-style:hover {
-  background-color: transparent;
-  border: 2px solid #d22e2e;
-}

@@ -1,0 +1,63 @@
+[
+    {
+      "name": "2015 Toyota Elantra 2.5L",
+      "price": 5500,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2019/10/toyota-rav4_0.jpg?resize=900%2C596&quality=100&ssl=1"
+    },
+    {
+      "name": "2018 Chevrolet Camaro",
+      "price": 9500,
+      "image": "https://i1.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/05/chevrolet-camaro-zl1-4-star-car.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2018 Bentley Scoopter X8",
+      "price": 33400,
+      "image": "https://i0.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2019/10/mini-5dr-hatch-cooper-d-dct.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2013 Acura Sport Version",
+      "price": 56000,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/05/34-1099x699-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2014 Ford Mustang 4.0 AT",
+      "price": 12000,
+      "image": "https://i1.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2019/10/15-1099x642-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2012 Chevrolet Pick Truck 3.5L",
+      "price": 77000,
+      "image": "https://i0.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/05/post_id_2104_imzJ3-999x599-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2012 Toyota Pickup Truck i7",
+      "price": 42500,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2019/10/121-1039x689-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "2019 Toyota Camry SE 350",
+      "price": 50500,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2019/10/camry-1-1279x902-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "Nissan Versa, LEATHER",
+      "price": 10000,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/01/nissan.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "Chevrolet Cruze 2016 LX",
+      "price": 15000,
+      "image": "https://i1.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/01/chev-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "Chevrolet Malibu 2016 LT",
+      "price": 19000,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/01/che-1.jpg?resize=400%2C250&quality=100&ssl=1"
+    },
+    {
+      "name": "Audi Q3 2016",
+      "price": 88000,
+      "image": "https://i2.wp.com/demo2.fitwp.com/corify/wp-content/uploads/sites/16/2020/05/q3_1.jpg?resize=400%2C250&quality=100&ssl=1"
+    }
+    
+  ]

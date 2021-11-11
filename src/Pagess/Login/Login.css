@@ -1,0 +1,25 @@
+.login-wrapper {
+  padding: 80px 0px;
+  background-image: url("../../img/wrapper-section-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.form-style {
+  width: 100%;
+  margin: 20px 15px;
+}
+
+.form-style input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #70707026;
+}
