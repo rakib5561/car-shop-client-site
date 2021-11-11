@@ -9,10 +9,14 @@ import AllCars from './Pagess/AllCars/AllCars';
 import Contact from './Pagess/Contact/Contact';
 import NotFound from './Pagess/NotFound/NotFound';
 import Login from './Pagess/Login/Login';
+import AuthProvider from './Context/AuthProvider';
+import Registration from './Pagess/Registration/Registration';
+import Dasboard from './Pagess/Dasboard/Dasboard';
 
 function App() {
   return (
     <div className="App"> 
+      <AuthProvider>
       <Router>
       <Header></Header>
         <switch>
@@ -31,14 +35,21 @@ function App() {
             <Route path='/contact'>
                 <Contact></Contact>
             </Route>
-
+            <Route path='/dasboard'>
+                <Dasboard></Dasboard>
+            </Route>
             <Route path='/login'>
               <Login></Login>
+            </Route>
+
+            <Route path='/register'>
+              <Registration></Registration>
             </Route>
 
         </switch>
         <Footer></Footer>
       </Router>
+      </AuthProvider>
 
     </div>
   );

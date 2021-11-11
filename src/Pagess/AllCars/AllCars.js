@@ -27,6 +27,9 @@ const AllCars = () => {
                             <Card.Title>{car.name}</Card.Title>
                             <Card.Text>$ {car.price}</Card.Text>
                             </Card.Body>
+                            <Card.Footer>
+                                <button className="btn-style">purchase </button>
+                            </Card.Footer>
                         </Card>
                         </Col>
                     </div>)

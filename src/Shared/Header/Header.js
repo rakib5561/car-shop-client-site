@@ -2,8 +2,14 @@ import React from 'react';
 import './Header.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
+
 
 const Header = () => {
+
+    const { user, logOut} = useAuth();
+    console.log(user);
+
     return (
         <div className="header" >
             <Navbar collapseOnSelect expand="lg" variant="light" sticky="top">
@@ -14,13 +20,20 @@ const Header = () => {
                     <Nav.Link className="nav-link" as={Link}  to="/home">Home</Nav.Link>
                     <Nav.Link as={Link} to="/about">About</Nav.Link>
                     <Nav.Link as={Link} to="/cars">All Cars</Nav.Link>
-                    <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                    <Nav.Link as={Link} to="/login">Login</Nav.Link>
                     
-                    {/* {!user.email && <Nav.Link as={Link} to="/login">Login</Nav.Link>}
-                    {user.email &&<button onClick={logOut}  className="log-out-btn">Log out</button>} */}
+                    <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+
+                    {user.email && <Nav.Link as={Link} to="/basboard">Dasboard</Nav.Link>}
+
+                     {
+                        !user.email && <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                     }
+                     {
+                         user.email && <button onClick={logOut}  className="log-out-btn">Log out</button>
+                     }
+                
                     <Navbar.Text>
-                        <a href="#login">Rakib</a>
+                        <img className="userImg" src={user.photoURL} alt="" />
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

@@ -18,3 +18,20 @@
 .nav-link:hover {
   color: #d22e2e;
 }
+
+.log-out-btn {
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 8px;
+  border: none;
+  background-color: transparent;
+}
+.log-out-btn:hover {
+  color: #d22e2e;
+}
+
+.userImg {
+  width: 35px;
+  border-radius: 25px;
+  margin-right: 5px;
+}

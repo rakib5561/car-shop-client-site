@@ -1,4 +1,4 @@
-.login-wrapper {
+.registration-wrapper {
   padding: 80px 0px;
   background-image: url("../../img/wrapper-section-01.png");
   background-position: center;
@@ -6,17 +6,16 @@
   background-size: cover;
 }
 
-.login-form {
-  width: 550px;
+.registration-container {
+  width: 500px;
   margin: 0 auto;
 }
 
-.form-style {
+.register-form {
   width: 100%;
   margin: 20px 15px;
 }
-
-.form-style input {
+.register-form input {
   width: 100%;
   margin: 10px;
   padding: 10px;
@@ -24,12 +23,7 @@
   background-color: #70707026;
 }
 
-.forget-pass {
-  font-size: 15px;
-  text-align: right;
-}
-
-.go-register {
+.go-login {
   font-size: 15px;
   text-align: right;
   color: grey;
