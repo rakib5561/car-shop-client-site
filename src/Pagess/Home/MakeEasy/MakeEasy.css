@@ -1,0 +1,47 @@
+.make-easy-wrap {
+  margin: 20px 0px;
+  padding: 80px 0px;
+  background-image: url("../../../img/wrapper-section-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.easy-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.easy-container h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.easy-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-container {
+  width: 55%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.box {
+  width: 100%;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 8%);
+  text-align: left;
+}
+
+.easy-img {
+  padding: 30px;
+  background-color: white;
+}

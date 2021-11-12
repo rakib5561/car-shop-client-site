@@ -12,7 +12,6 @@ const Login = () => {
         <div className="login-wrapper">
             <div className="login-form">
             <h1>Please,login</h1>
-
            <form className="form-style" onSubmit={LogInUser}>
             <input onBlur={handleEmail} type="email" placeholder="your email"/>
             <input onBlur={handlePassword} type="password"  placeholder="your password"/>

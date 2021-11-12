@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Pagess/Home/Home/Home';
 import Header from './Shared/Header/Header';
 import Footer from './Shared/Footer/Footer';
@@ -11,7 +11,10 @@ import NotFound from './Pagess/NotFound/NotFound';
 import Login from './Pagess/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import Registration from './Pagess/Registration/Registration';
-import Dasboard from './Pagess/Dasboard/Dasboard';
+import Dasboard from './Pagess/Dasboard/Dasboard/Dasboard';
+import Purchase from './Pagess/Purchase/Purchase';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+
 
 function App() {
   return (
@@ -19,7 +22,7 @@ function App() {
       <AuthProvider>
       <Router>
       <Header></Header>
-        <switch>
+        <Switch>
             <Route exact path='/'>
                 <Home></Home>
             </Route>
@@ -35,18 +38,20 @@ function App() {
             <Route path='/contact'>
                 <Contact></Contact>
             </Route>
+            <PrivateRoute path='/purchase'>
+               <Purchase></Purchase>
+            </PrivateRoute>
             <Route path='/dasboard'>
                 <Dasboard></Dasboard>
             </Route>
             <Route path='/login'>
               <Login></Login>
             </Route>
-
             <Route path='/register'>
               <Registration></Registration>
             </Route>
 
-        </switch>
+        </Switch>
         <Footer></Footer>
       </Router>
       </AuthProvider>

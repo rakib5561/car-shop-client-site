@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './AllCars.css';
 
-const AllCars = () => {
+const HomesCar = () => {
 
     const [cars, setCars] = useState([]);
     useEffect( ()=>{
@@ -13,16 +12,14 @@ const AllCars = () => {
         .then(data => setCars(data))
 
     },[]);
-    
-    
 
     return (
         <div className="cars-wraps">
             <div className="cars-container">
-                <h1 className="title">Our Car Collection</h1>
+                <h1 className="title">Our New Collection</h1>
             <Row xs={1} md={3} lg={3} className="g-4">
                 {
-                    cars.map(car => <div>
+                    cars.slice(0, 6).map(car => <div>
                     <Col>
                         <Card>
                             <Card.Img variant="top" src={car.image} />
@@ -43,4 +40,4 @@ const AllCars = () => {
     );
 };
 
-export default AllCars;
+export default HomesCar;

@@ -1,0 +1,81 @@
+.dasboard-wrap {
+  width: 100%;
+}
+
+.dasboard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.side-bar {
+  width: 20%;
+  height: 100vh;
+  background-color: #59405c;
+}
+
+.side-bar-content {
+  color: white;
+  padding: 80px 0px;
+}
+.side-bar-img {
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.side-bar-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.side-nav {
+  text-align: left;
+  margin-top: 20px;
+}
+.side-nav ul li {
+  width: 100%;
+  font-size: 18px;
+  margin: 5px 0px;
+  background-color: black;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 8px;
+  transition: 0.2s all ease-in-out;
+  border-radius: 5px;
+}
+
+.side-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.side-nav ul li:hover {
+  background-color: #d22e2eed;
+}
+
+.dasboard-content {
+  width: 65%;
+  height: 100vh;
+  padding: 80px;
+}
+
+.review-form {
+  width: 560px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.review-form h2 {
+  margin-bottom: 20px;
+}
+
+.review-form form input {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #70707026;
+  border-radius: 5px;
+  border: none;
+}
