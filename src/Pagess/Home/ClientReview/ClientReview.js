@@ -6,7 +6,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 const ClientReview = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/review')
+        fetch('https://still-reaches-61574.herokuapp.com/review')
             .then(res => res.json())
             .then(data=> setReviews(data))
     },[])

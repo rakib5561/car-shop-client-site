@@ -7,7 +7,6 @@ import Footer from './Shared/Footer/Footer';
 import About from './Pagess/About/About';
 import AllCars from './Pagess/AllCars/AllCars';
 import Contact from './Pagess/Contact/Contact';
-import NotFound from './Pagess/NotFound/NotFound';
 import Login from './Pagess/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import Registration from './Pagess/Registration/Registration';
